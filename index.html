@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="game-title">
+        <h1> Guess The Number </h1>
+        <div id="instructions">
+            <p> The game selects a number between 1 and 100. You guess a number.
+                The game will tell you if your guess is too high or too low. Keep guessing until you get it right! 
+                The fewer the number of tries the better!
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <div id="user-input">
+            <h3> Enter a number </h3>
+            <input type="number" id="guess" placeholder="Your guess"> 
+            <button id="submission_btn"> Submit </button>
+        </div>
+
+        <div id="all_containers">
+            <div class="container">
+                <div id="greater_than_container">
+                    <h4> Greater Than</h4>
+                </div>
+                
+            </div>
+
+            <div class="container">
+                <div id="lesser_than_container">
+                    <h4> Lesser Than</h4>
+                </div>
+            </div>
+        </div>
+        
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

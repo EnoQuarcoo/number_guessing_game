@@ -1,0 +1,62 @@
+body{
+    background-color: #DBF4AD;
+    font-family: Arial, sans-serif;
+    color: 040F0FF;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6rem;
+}
+
+
+header h1{
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 45px;
+}
+
+#instructions{
+    padding: 0px 40px;
+    text-align: center;
+    font-size : 1.2em;
+}
+
+main{
+    padding: 10px 100px;
+}
+
+#user-input{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 20px;
+}
+
+#all_containers{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    
+}
+
+button{
+    background-color: #0A8754;
+    width : 100px;
+    font-size: 1.2em;
+}
+
+.container{
+    border : 3px solid #000;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 40px; 
+    
+    
+}
+
+.container h4 {
+    margin : 0;
+    font-size: 1.5em;
+    text-align: center;
+}
